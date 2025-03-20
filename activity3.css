@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 100px;
+    background-color: #3D518C;
+}
+header h1 {
+    margin-left: 20px;
+}
+nav ul li {
+    list-style-type: none;
+}
+button {
+    width: 100px;
+    margin: 0 5px;
+    background-color: #3D518C;
+    color: whitesmoke;
+    border: none;
+}
+article{
+    margin-top: 120px;
+    background-color: #3D518C;
+    height: 500px;
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    align-content:space-around;
+    justify-content: center;
+    text-align: center;
+}
+article h1 {
+    background-color: #F6E8EA;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: black;
+    align-content: center;
+
+}
+article .cta {
+    background-color: #F6E8EA;
+    height: 50px;
+    font-size: large;
+    color: black;
+}
+section{
+    margin-top: 20px;
+    background-color: #3D518C;
+    height: 500px;
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    justify-content:space-around;
+    text-align: center;
+}
+section .h2container {
+    background-color: #F6E8EA;
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    color: black;
+    margin-top: 25px;
+}
+section .h2container .p {
+    font-size: x-small;
+}
+section .vector1 {
+    width: 300px;
+    height: ;
+    border: 1px solid whitesmoke;
+    height: 200px;align-content: center;
+}
+.testimonials{
+    margin-top: 50px;
+    background-color: #3D518C;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    align-items: center;
+    justify-content:space-around;
+}
+.testi {
+    border: 1px solid whitesmoke;
+    height: 400px;
+    width: 350px;
+    text-align: center;
+}
+.iconholder {
+    height: 50px;
+    width: 50px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 20px 150px;
+}
+.testimonial {
+    margin-top: 120px;
+}
+h4 {
+    margin-top: 300px;
+}
+.footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    background-color: #3D518C;
+    margin-top: 10px;
+    height: 100px;
+    padding: 25px 0px;
+    display: flex;
+    width: 1280px;
+}
+/* Wide */
+@media screen and (max-width: 1440px) {
+ 
+body {
+    width: 100%;
+    justify-content: center;
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+ 
+body {    
+    width: 100%;
+}
+/* Tablet */
+@media screen and (max-width: 744px) {
+body {
+    width: 744px;
+}
+header {
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+
+}
+
+/* Mobile */
+@media screen and (max-width: 375px) {
+
+    body {
+      display: flex;
+      flex-direction: column;
+      width: 375px;
+    } 
